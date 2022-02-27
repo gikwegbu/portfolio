@@ -3,6 +3,7 @@ import { BsWhatsapp } from 'react-icons/bs';
 import { BsTwitter } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
 import { FiLinkedin } from 'react-icons/fi';
+import { AiOutlineMail } from 'react-icons/ai';
 
 
 const Footer = () => {
@@ -18,6 +19,11 @@ const Footer = () => {
                     <div>
                         <a href="tel:+2348101570258" target="_blank" title='+2348101570258' rel='noopener noreferal'>
                              <BsWhatsapp fontSize={24} color="#075e54" />
+                        </a>
+                    </div>
+                    <div>
+                        <a href="mailto:g.ikwegbu@gmail.com" title='George Ikwegbu Chinedu'>
+                             <AiOutlineMail fontSize={24} color="white" />
                         </a>
                     </div>
                     <div>

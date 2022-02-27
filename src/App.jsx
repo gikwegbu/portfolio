@@ -14,7 +14,7 @@ const Navigation = () => {
     { title: 'About', url: '#summary', target: false },
     { title: 'Projects', url: '#', target: true },
     { title: 'Blogs', url: '#', target: true },
-    { title: 'Contact Me', url: '#contact', target: false },
+    // { title: 'Contact Me', url: '#contact', target: false },
   ];
   return (
       <div className="nav text-white">
@@ -87,9 +87,9 @@ function App() {
           <Summary />
         </div>
         <WorkBlogs />
-        <div id="contact">
+        {/* <div id="contact">
           <ContactMe />
-        </div>
+        </div> */}
         <Footer />
       </div>
     </div>
