@@ -1,7 +1,7 @@
 
 const MidSection = () => {
     return (
-        <div className="middle bg-gray-100 sm:h-[60vh] sm:flex sm:flex-col sm:justify-center sm:items-center">
+        <div className="middle bg-gray-100 md:h-[60vh] md:flex md:flex-col md:justify-center md:items-center">
             <div className="flex sm:flex-row flex-col justify-center md:pl-12 items-start w-full py-12 px-4">
                 <div className="flex-[0.4]">
                     <div className="text-2xl font-bold text-black"> Excellent UI </div>
@@ -14,7 +14,7 @@ const MidSection = () => {
                     <div className="text-2xl font-bold text-black"> Engineering </div>
                     <div className="text-base mt-4 sm:w-[75%]">
                         Having an Engineering background coupled with a strong knowledge about Js,
-                        with the help or it's libraries,
+                        with the help of it's libraries,
                         I get to build scalable and optimized solutions. 
                     </div>
                 </div>

@@ -17,9 +17,9 @@ const HeroSection = () => {
                     <div className="text-base py-6  sm:w-[80%] md:w-[60%] text-white">
                         I just don't build pixel perfect UIs, I make them scalable with Great Ux
                     </div>
-                    <div className="flex flex-row justify-between items-center text-base text-gray-200 md:w-[80%]">
+                    <div className="hidden sm:flex flex-row justify-between items-center text-base text-gray-200 md:w-[80%]">
                         <div className="w-[48%]">
-                            Healthy working codebse produces healthy UI implementation.
+                            Healthy working codebase produces healthy UI implementation.
                         </div>
                         <div className="w-[48%]">
                             Having over 4+ years of experience building products for clients.
